@@ -9,7 +9,7 @@ public final class HelloWorldBot extends Bot {
         
         
             ApiContextInitializer.init();
-            Bot.runBot(new HelloWorldBot("1705172028:AAFowiU_cY6xpZqX1Ole3vUrIhU5dINYSaw", "Kotyara"));
+            Bot.runBot(new HelloWorldBot("5549312306:AAHQMDwg1H5PbzBmKMb-qzp0SDRvD9zyeZU", "Helya"));
     }
 
     private HelloWorldBot(String token, String botName) {
