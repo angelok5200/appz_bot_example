@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('git') {
             steps {
-                git url: "https://github.com/KotyaraSingleCat/appz_bot_example.git"
+                git url: "https://github.com/angelok5200/appz_bot_example.git"
             }
         }
         stage('Build') { 
