@@ -17,7 +17,7 @@
     <properties>
         <telegram.version>4.1</telegram.version>
     </properties>
-
+   
     <build>
         <plugins>
             <plugin>
@@ -27,6 +27,16 @@
                     <source>8</source>
                     <target>8</target>
                 </configuration>
+            </plugin>
+             <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.2.3</version>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>1.2</version>
             </plugin>
         </plugins>
     </build>
